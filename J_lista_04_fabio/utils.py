@@ -1,6 +1,6 @@
 import os
 
-def get_intenger_number(label: str):
+def get_integer_number(label: str):
     try:
        numero = int(input(label))
        return numero
@@ -8,17 +8,29 @@ def get_intenger_number(label: str):
         linhas()
         print('O valor deve ser um número inteiro!\nTente novamente...')
         linhas()
-        return get_intenger_number(label)
+        return get_integer_number(label)
     
 
-def get_integer_number_min(label: int, min_value: int):
-    entrada = get_intenger_number(label)
+def get_integer_number_min(label: str, min_value: int):
+    entrada = get_integer_number(label)
 
     while entrada < min_value:
         linhas()
         print(f'O valor deve ser no mínimo {min_value}!\nTente novamente...')
         linhas()
         entrada =  get_integer_number_min(label, min_value)
+
+    return entrada
+
+
+def get_integer_number_min_max(label: str, min_value: int, max_value: int):
+    entrada = get_decimal_number(label)
+
+    while entrada < min_value and entrada > max_value:
+        linhas()
+        print(f'O valor deve estar entre {min_value} e {max_value}!Tente novamente...')
+        linhas()
+        entrada = get_integer_number_min_max(label, min_value, max_value)
 
     return entrada
 
