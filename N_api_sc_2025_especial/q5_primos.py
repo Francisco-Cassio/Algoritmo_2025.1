@@ -2,7 +2,7 @@
 # números de N até M, escreva ao lado de cada número se é ou
 # não primo.
 
-# Ínicio às 8h23 em 25/05
+# 25-05/8h23 - 25-05/8h42
 
 from q1_number_utils import obter_numero_inteiro_min
 
@@ -31,5 +31,3 @@ def eh_primo(n):
 
 
 main()
-
-# Finalizado às 8h42 em 25/05

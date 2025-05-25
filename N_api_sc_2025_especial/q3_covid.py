@@ -15,7 +15,7 @@
 # seja inválido. E após o fim, mostrar total de casos, e média de
 # casos por dia.
 
-# Ínicio às 21h52 em 24/05
+# 24-05/21h52 - 24-05/23h23
 
 from q1_number_utils import obter_numero_inteiro_positivo
 
@@ -71,5 +71,3 @@ Média de casos por dia: {media:.1f}''')
 
 
 main()
-
-# Finalizado às 23h23 em 24/05

@@ -2,7 +2,7 @@
 # Máximo Divisor Comum entre dois números inteiros positivos por
 # meio de recursividade como estrutura de repetição.
 
-# ínicio às 13h12 em 25/05
+# 25-05/13h12 - 25-05/13h51
 
 from q1_number_utils import obter_numero_inteiro_positivo
 
@@ -35,5 +35,3 @@ def calcular_mdc(num1: int, num2: int, menor: int, contador: int, mdc: int):
 
 
 main()
-
-# Finalizado às 13h51 em 25/05

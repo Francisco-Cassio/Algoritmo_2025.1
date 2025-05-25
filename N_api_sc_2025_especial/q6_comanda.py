@@ -13,7 +13,7 @@
 # iii. Valor Total com taxa de serviço.
 # e. Confirmar pagamento: que zera a conta da mesa.
 
-# Ínicio às 8h43 em 25/05
+# 25-05/8h43 - 25-05/15h39
 
 import os
 from q1_number_utils import obter_numero_inteiro_min
@@ -125,5 +125,3 @@ def limpar_tela():
 
 
 main()
-
-# Finalizado às 15h39 em 25/05

@@ -7,7 +7,7 @@
 # I (n)
 # J (n)
 
-# Ínicio às 14h48 em 25/05
+# 25-05/14h48 - 25-05/15h07
 
 from q1_number_utils import obter_numero_inteiro_min
 
@@ -31,5 +31,3 @@ def main():
 
 
 main()
-
-# Finalizado às 15h07 2m 25/05

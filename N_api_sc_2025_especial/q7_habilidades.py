@@ -28,7 +28,7 @@
 # n = int(entrada.split()[0])
 # tipo = entrada.split()[1]
 
-# Ínicio às 23h45 em 24/05
+# 24-05/23h45- 24-05/00h11
 
 from q1_number_utils import obter_numero_inteiro_min
 
@@ -85,5 +85,3 @@ Percentual de Dados: {percentual_dados:.2f} %''')
 
 
 main()
-
-# Finalizado às 00h11 em 25/05

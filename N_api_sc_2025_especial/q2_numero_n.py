@@ -5,8 +5,7 @@
 # sequências.
 # c. O menor e o maior números digitados de todas as sequências.
 
-
-# ínicio às 20h19 em 24/05
+# 24-05/20h19 - 24-05/20h56
 
 from q1_number_utils import obter_numero_inteiro_min
 
@@ -63,5 +62,3 @@ O maior número digitado de todas as sequências: {maior}''')
     
 
 main()
-
-# Finalizado às 20h56 em 24/05

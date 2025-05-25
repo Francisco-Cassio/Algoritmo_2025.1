@@ -8,7 +8,7 @@
 # precisa listar os prêmios individuais, apenas o Maior Prêmio
 # Individual e o Menor Prêmio Individual.
 
-# Ínicio às 11h29 em 25/05
+# 25-05/11h29 - 25-05/11h46
 
 from q1_number_utils import obter_numero_inteiro_positivo
 
@@ -45,5 +45,3 @@ def main():
 
 
 main()
-
-# Finalziado às 11h46 em 25/05

@@ -5,7 +5,7 @@
 # 15 dias” ou “30 meses”.
 # Restrições: Dias → 1 a 30, Meses → de 1 a 12, e Anos de 1 a 3000
 
-# Ínicio às 10h02 em 25/05
+# 25-05/10h02 - 25-05/10h32
 
 from q1_number_utils import obter_numero_inteiro_min
 
@@ -54,5 +54,3 @@ def main():
 
 
 main()
-
-# Finalizado às 10h32 em 25/05

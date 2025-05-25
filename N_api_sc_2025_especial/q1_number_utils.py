@@ -8,8 +8,7 @@
 # e. Receber número inteiro de no máximo X
 # f. Receber número inteiro numa faixa min X e max Y
 
-
-# Ínicio às 19:56 em 24/05
+# 24-05/19h56 - 24-05/20h10
 
 def obter_numero_inteiro(label: str):
     entrada = input(label)
@@ -70,6 +69,3 @@ def obter_numero_inteiro_min_max(label: str, min_value: int, max_value: int):
         return obter_numero_inteiro_min_max(label, min_value, max_value)
     
     return numero
-
-
-# Finalizado ás 20:10 em 24/05
